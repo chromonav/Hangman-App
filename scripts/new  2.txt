@@ -1,0 +1,5 @@
+var y= Math.round((Math.random()*5)+1);
+   
+	var z =y;
+	 var x=z%2;
+	for(z;z>0;z--){ if(x== 0){$('#' + key).css( "backgroundColor","green");console.log("ddone")}else{$('#' + key).css( "backgroundColor","red");}}

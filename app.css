@@ -1,0 +1,239 @@
+#subtitle
+{
+	margin-left: 62%;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+
+body
+{
+font-family: 'Segoe UI Light','Segoe UI','Lucida Grande',Verdana,Arial,Helvetica,sans-serif;
+color: #1D1D1D;
+font-weight: 100;
+margin-top:25px;
+background-image:url('wallpaper.jpg');
+
+}
+
+img:hover
+{
+box-shadow: 1px 1px 10px #888888;
+}
+h1
+{
+  display: inline;
+ font-size: 4em;
+ font-weight:100;
+  cursor: pointer;
+}
+
+.hangmanclass
+{
+
+margin-left: 32%;
+}
+.attempts
+{
+top-margin:200px;
+text-align:center;
+}
+
+.icon-arrow-left
+{
+
+font-size: 4em;
+float:left;
+  display: inline;
+font-weight:100;
+ cursor: pointer;
+
+
+}
+.icon-arrow-left:hover
+{ 
+color:#707070;
+
+}
+
+
+.mainpuzzle
+{
+ font-size: 4em;
+ font-weight:100;
+
+margin-left: 35%;
+margin-top:5%;
+
+}
+
+.abc
+{
+width:70%; 
+margin-left:25%; 
+overflow: none;  
+
+}
+
+.metrobuttons
+{
+background-color: #2DC0EF;
+
+ border: 1px solid transparent;
+ color: #FFFFFF;
+
+ cursor: pointer;
+ font-size: 24px;
+ font-weight: 	300;
+ height: 55px;
+ width: 55px;
+ line-height: 27px;
+padding: 0 8px;
+ text-align: center;
+}
+
+.metrobuttons:hover
+{
+background-color: #2D89EF;
+font-weight: 800;
+max-width:55px;
+
+
+}
+
+.metrobuttons:active
+{
+background-color:#3333CC;
+}
+
+table{
+margin-top: 20%; 
+   
+}
+
+td
+{
+margin-left: 50px;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+}
+@font-face {
+	font-family: 'icomoon';
+	src: url(data:application/x-font-woff;charset=utf-8;base64,d09GRk9UVE8AAARUAAsAAAAABxAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAABCAAAAS8AAAI62IcHC0ZGVE0AAAI4AAAAGgAAABxjZRlkR0RFRgAAAlQAAAAdAAAAIAAxAARPUy8yAAACdAAAAEsAAABgL9zcQGNtYXAAAALAAAAAQwAAAVrAFfLlaGVhZAAAAwQAAAAuAAAANvr66u9oaGVhAAADNAAAAB4AAAAkBBD/5WhtdHgAAANUAAAAEAAAABAGAAAAbWF4cAAAA2QAAAAGAAAABgAEUABuYW1lAAADbAAAANsAAAGJ24uLf3Bvc3QAAARIAAAADAAAACAAAwAAeJyNTzFLw1AQ/l76QkMJqZZEFGKzuGUpurtZkI72F6hLKTYicXIVrBxFh4BD8Re4Sgd/gdCfklV4DxJ4viRNi+BQDu7uu7vv7j4GzsEYs0ZX0U0UTcAMMJzKriGDhtznZDfI5t0WDi46imid2E0ay0TGpo9p2wd2fLzs+rB847gDs9hhoY09HOLofjI66/V6VTjRoa/R6lx9FWBPbMqewQuqgW82Y2+O+BQ/nnCz0gaUptmQaCmGFKbmh3A9hdnlq8Ld+61SRabKbAP/qZXDFW0D61qQx1zhYdFXuD7/WrkSFk7N64Z6XLt53djUqpH5ihY4Ik69zBWlLSkM9f800ErS0BxnWsSWz20rNpBaxJbP/RWbF5BXrhabl7TAIb01T2TSdGTikkd26xcK7hCyAHicY2BgYGQAgpOd+YYg+szbq5IwGgBJzwdCAAB4nGNgZGBg4ANiCQYQYGJgBEJmIGYB8xgABGsANgAAAHicY2BmYmCcwMDKwMHow5jGwMDgDqW/MkgytDAwMDGwMjPAgQCCyRCQ5prC4PCA4QMD44P/Dxj0GB8wKDQwMDDCFSgAISMAEEIMHwB4nGNgYGBmgGAZBkYGEAgB8hjBfBYGCyDNxcDBwASEDA8YHjB/YPj/H6QIwVZglP8vwAzVCwWMbAyoAiMQAABTZAunAHicY2BkYGAAYvuPew/G89t8ZeBmYgCBM2+vSiLo/w+YGBgfALkcDGBpAGUSDHcAAHicY2BkYGB88P8Bgx4TAwPDPwYgCRRBASwAbegD9wAAAgAAAAIAAAACAAAAAAAAAAAAUAAABAAAeJx1jjtuAjEURc/AQBQlilJFKV2kSMNo7JIFjFKnoEfIGo0EWDLQZCFpswRKlpEFsAQ2kTvDa1Jg+dnH1/d9gEe+KehXwR3PxiPxu/GYN76MS+lH4wkP/BpPpV/kLMp7KU9DVs8j8avxmA9q41L6j/GEF07GU+lnOlYkNorEFrpV2qQk+CTScmDNkqxnbA/rpaAZfPvhznJEHIFK3Rxzxf96V83LMbMzyNkTTdrum5Tb6EJVu7mzziIfZtqh9nLdGm+hxpmd/q9t/DACi5h3nYr4qr6Z+wegSDpCAHicY2BmwAsAAH0ABA==) format('woff'),
+		 url(data:application/x-font-ttf;charset=utf-8;base64,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) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'icomoon';
+	font-style: normal;
+	
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-arrow-right:before {
+	content: "\e000";
+}
+.icon-arrow-left:before {
+	content: "\e003";
+}
+
+
+
+
+
+
+@font-face {
+	font-family: 'hangman_image';
+	src:url('fonts/hangman_image.eot');
+	src:url('fonts/hangman_image.eot?#iefix') format('embedded-opentype'),
+		url('fonts/hangman_image.svg#hangman_image') format('svg'),
+		url('fonts/hangman_image.woff') format('woff'),
+		url('fonts/hangman_image.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'hangman_image';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+@font-face {
+	font-family: 'hangman_image';
+	src:url('fonts/hangman_image.eot');
+	src:url('fonts/hangman_image.eot?#iefix') format('embedded-opentype'),
+		url('fonts/hangman_image.svg#hangman_image') format('svg'),
+		url('fonts/hangman_image.woff') format('woff'),
+		url('fonts/hangman_image.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'hangman_image';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-hello"]:before {
+*/
+.icon-hellountitled:before, .icon-hellountitled-2:before, .icon-hellountitled-3:before, .icon-hellountitled-4:before, .icon-hellountitled-5:before, .icon-helloon-end:before {
+	font-family: 'hangman_image';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-hellountitled:before {
+	content: "\31";
+}
+.icon-hellountitled-2:before {
+	content: "\32";
+}
+.icon-hellountitled-3:before {
+	content: "\33";
+}
+.icon-hellountitled-4:before {
+	content: "\34";
+}
+.icon-hellountitled-5:before {
+	content: "\35";
+}
+.icon-helloon-end:before {
+	content: "\36";
+}
+
+.hangman_image
+{
+position : absolute ;
+font-family: 'hangman_image';
+font-size: 2000%;
+display : inline;
+margin-left : 10%;
+font-weight : 100;
+
+}
